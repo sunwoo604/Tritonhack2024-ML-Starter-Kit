@@ -42,7 +42,7 @@ Now that you have a fork of the repository, you can now save the code to your lo
 
 ### Additional Information
 
-
+#### Files: .gitignore
 
 ## What is Conda? <a name="conda"></a>
 
