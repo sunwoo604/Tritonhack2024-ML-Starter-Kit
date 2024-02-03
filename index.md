@@ -160,7 +160,7 @@ Then, click on Python Environments.
 
 ![Image](images/notebook_12.png)
 
-Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use(in this case, you would want to select tritonhack2024ml).
+Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use(in this case, you would want to select `tritonhack2024ml`).
 
 ![Image](images/notebook_13.png)
 
