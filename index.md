@@ -6,7 +6,7 @@
 3. [Installing Miniconda for Windows](#windows)
 4. [Installing Miniconda for Mac](#mac)
 5. [What is a Notebook?](#notebook)
-6. 
+6. [Getting Started with Notebooks](#start)
 
 ## What is Git/GitHub? <a name="git"></a>
 
@@ -96,3 +96,68 @@ A notebook is an interactive computational environment in which users can execut
 
 In this project, you will be introduced to Python Jupyter Notebook. It is totally up to you guys to use either Jupyter Server or just the given IDE such as Visual Studio Code.
 
+Jupyter notebook is one of the most common forms of notebooks out there. The notebook usually has a domain (or extension) of `.ipynb`. There will be a starter notebook file in the project as well. First, there are 2 different ways you can run your code on the notebook. First is to use the given IDE (for instance, Visual Studio Code). If you guys have successfully installed Conda and the given environment, you guys should be able to run any notebook. Before we run anything, we want to set the environment for the notebook.
+
+## Getting Started with Notebooks <a name="start"></a>
+
+### Jupyter Notebook (Recommended)
+
+On your terminal, while the Conda environment is activated, use the command `jupyter notebook`: 
+
+![Image](images/notebook_1.png)
+
+You will be able to see the messages like this and your default browser will be opened automatically and guide you to the Jupyter Server. 
+
+![Image](images/notebook_2.png)
+
+In the server, click on the notebook file that you want to open. 
+
+![Image](images/notebook_3.png)
+
+Now, you can select the cell that you want to learn, and then press the run button!
+
+![Image](images/notebook_4.png)
+
+### VS Code
+
+First, open the file. You will be able to see the notebook’s environment at the top right corner. Click on that. 
+
+![Image](images/notebook_5.png)
+
+After that, you should be able to see the search bar and the dropdown menu like the image below. Click on `Select Another Kernel`. 
+
+![Image](images/notebook_6.png)
+
+Then, click on Python Environments.
+
+![Image](images/notebook_7.png)
+
+Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use (in this case, you would want to select `tritonhack2024ml`).
+
+![Image](images/notebook_8.png)
+
+Now you are all set! You can run each cell individually now by clicking the run button. 
+
+![Image](images/notebook_9.png)
+
+### Interactive Notebook (VS Code):
+
+In some cases, you do not want to use Jupyter Notebook, but the Python file instead because you want to embed the code into your program. It can be very annoying to convert all these notebook codes to the actual file. In this case, you can use Python File directly. 
+
+By typing `#%%`, you will automatically generate a Jupyter-like cell within the code. Press `Run Cell` here.
+
+![Image](images/notebook_10.png)
+
+Then it will open an interactive window here, but there is an error. Why? It is because we are not using the environment that we created (even if you did not get an error, please switch it to the environment that you created using yml file)cd . To solve this, click on the environment at the top right corner.
+
+![Image](images/notebook_11.png)
+
+Then, click on Python Environments.
+
+![Image](images/notebook_12.png)
+
+Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use(in this case, you would want to select tritonhack2024ml).
+
+![Image](images/notebook_13.png)
+
+Now you are all set!
