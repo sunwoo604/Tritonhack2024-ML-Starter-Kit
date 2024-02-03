@@ -1,13 +1,10 @@
 # <center> Python, Git, (Mini)conda</center>
 
 ## Table of Contents
-1. [Why Python?](#python)
-2. [What is Git/GitHub?](#git)
-3. [What is Conda?](#conda)
-4. [Installing Miniconda for Windows](#windows)
-5. [Installing Miniconda for Mac](#mac)
-
-## Why Python? <a name="python"></a>
+1. [What is Git/GitHub?](#git)
+2. [What is Conda?](#conda)
+3. [Installing Miniconda for Windows](#windows)
+4. [Installing Miniconda for Mac](#mac)
 
 ## What is Git/GitHub? <a name="git"></a>
 
