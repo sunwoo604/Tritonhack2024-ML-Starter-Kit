@@ -19,4 +19,6 @@ The software you will download, Miniconda, will include Conda, Python, and some 
 
 ## Installing Miniconda for Windows <a name="windows"></a>
 
+First, go to this [link](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html). Once you’re there, click on “Miniconda Installer for Windows” as shown below:
+
 ## Installing Miniconda for Mac <a name="mac"></a>
