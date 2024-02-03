@@ -1,14 +1,16 @@
 # <center> Git, (Mini)conda, Python Jupyter Notebook</center>
 
 ## Table of Contents
-1. [What is Git/GitHub?](#git)
-2. [What is Conda?](#conda)
+1. [Getting Started with Git/GitHub](#git)
+2. [Conda](#conda)
 3. [Installing Miniconda for Windows](#windows)
 4. [Installing Miniconda for Mac](#mac)
 5. [What is a Notebook?](#notebook)
 6. [Getting Started with Notebooks](#start)
 
-## What is Git/GitHub? <a name="git"></a>
+## Getting Started with Git/Github <a name="git"></a>
+
+### What is Git/GitHub? 
 
 *Git* is a version control system: it is essentially a tool that keeps track of file history. A **repository**, or a repo, is a place where files and their histories are stored.
 
@@ -47,7 +49,9 @@ Sometimes we want to tell Git to ignore certain files in our project. For exampl
 
 For example, having `*.log` in `.gitignore` will tell Git to ignore any files ending in `.log`. Adding `temp/` will tell Git to ignore all files in the `temp` folder. 
 
-## What is Conda? <a name="conda"></a>
+## Conda <a name="conda"></a>
+
+### What is Conda?
 
 Conda is a package management system that keeps packages (NumPy, pandas, etc.) compatible with your projects. It is incredibly useful for people working in data science and machine learning because it allows them to use different versions of the same package across different projects. 
 
