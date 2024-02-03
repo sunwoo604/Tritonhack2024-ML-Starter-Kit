@@ -38,3 +38,18 @@ Wait until a line pops up right below the last line that, after the name of your
 If you’ve made it this far, congratulations! You have finished setting up Miniconda on your WIndows device. Although there doesn’t look like much going on here, you can type “help”, then press Enter to discover a list of commands for Conda. 
 
 ## Installing Miniconda for Mac <a name="mac"></a>
+
+1. First, go to the Miniconda website at this [link](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html). 
+2. Next, click on “**macOS graphical installer**”
+3. Click “**Download the installer,**” circled below.
+
+![Image](images/mac_1.png)
+
+4. Under “**Latest Miniconda installer links,**” click on one of the two .pkg files, depending on whether you have a M1/M2 Mac or Intel Mac (If you don’t know, click the Apple logo on the top left and click “About This Mac”).
+
+![Image](images/mac_2.png)
+
+5. Once the .pkg file is done downloading, double click on the file in your Downloads folder.
+6. Answer the prompts on the screen to let the installer download Miniconda.
+7. Success! After it is done installing, it should say “Thank you for installing Miniconda.”
+8. Open a new Terminal window and run `conda list`. If you successfully installed Miniconda, a list of packages should appear. You’re all done!
