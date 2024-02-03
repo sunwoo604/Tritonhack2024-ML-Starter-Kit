@@ -11,6 +11,10 @@
 
 ## Why Conda? <a name="conda"></a>
 
+Conda is a package management system that keeps packages (NumPy, pandas, etc.) compatible with your projects. It is incredibly useful for people working in data science and machine learning because it allows them to use different versions of the same package across different projects. 
+
+The software you will download, Miniconda, will include Conda, Python, and some functional packages.
+
 ## Why Git? <a name="git"></a>
 
 ## Installing Miniconda for Windows <a name="windows"></a>
