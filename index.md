@@ -1,10 +1,11 @@
-# <center> Python, Git, (Mini)conda</center>
+# <center> Git, (Mini)conda, Python Jupyter Notebook</center>
 
 ## Table of Contents
 1. [What is Git/GitHub?](#git)
 2. [What is Conda?](#conda)
 3. [Installing Miniconda for Windows](#windows)
 4. [Installing Miniconda for Mac](#mac)
+5. [What is a Notebook?](#notebook)
 
 ## What is Git/GitHub? <a name="git"></a>
 
@@ -87,3 +88,8 @@ If you’ve made it this far, congratulations! You have finished setting up Mini
 6. Answer the prompts on the screen to let the installer download Miniconda.
 7. Success! After it is done installing, it should say “Thank you for installing Miniconda.”
 8. Open a new Terminal window and run `conda list`. If you successfully installed Miniconda, a list of packages should appear. You’re all done!
+
+## What is a Notebook? <a name="notebook></a>
+
+A notebook is an interactive computational environment in which users can execute a particular piece of code and observe the output and make changes to the code to drive it to the desired output or explore more. Jupyter notebooks are heavily used for data exploration purposes as it involves a lot of reiterations. It is also used in other data science workflows such as machine learning experimentations and modeling. Data Science requires several trials and failure to find the “sweet spot” for the model and rerunning the entire program will be time-consuming and tiring. Using a notebook, data scientists can reduce their time and cost efficiently. It can also be used for documenting code samples. A Jupyter notebook has independent executable code cells that users can run in any order.
+
