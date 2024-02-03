@@ -1,4 +1,4 @@
-# <center> Why use Python, Git, Conda? Installing Miniconda </center>
+# <center> Python, Git, (Mini)conda</center>
 
 ## Table of Contents
 1. [Why Python?](#python)
