@@ -2,8 +2,8 @@
 
 ## Table of Contents
 1. [Why Python?](#python)
-2. [Why Git?](#git)
-3. [Why Conda?](#conda)
+2. [What is Git/GitHub?](#git)
+3. [What is Conda?](#conda)
 4. [Installing Miniconda for Windows](#windows)
 5. [Installing Miniconda for Mac](#mac)
 
@@ -18,6 +18,31 @@
 ### Why use Git?
 
 Git helps developers collaborate on code. It keeps a record of all the changes made so we can go back in history if there is faulty code. Each person can work on the code in their own separate *branch*, then commit any changes they make.
+
+### Install Git
+
+To check whether you have Git installed, open a Terminal window and type `git --version`. If it is installed, you should have at least version 2.x. If it is not installed, go to the [downloads page](https://git-scm.com/downloads) to install it.
+
+### Forking a Repository
+
+Forking a repository copies the source code to a new repository, where you can make your own separate changes. To fork, go to the repository [website](https://github.com/tritonhacks/Tritonhack2024-ML-Starter-Kit) and click Fork on the top right. 
+
+![Image](images/git_1.png)
+
+Then, click Create Fork.
+
+![Image](images/git_2.png)
+
+### Cloning a Repository
+
+Now that you have a fork of the repository, you can now save the code to your local computer by cloning it. 
+1. To clone a repository, first go to your forked repository and copy the URL address. It should look something like: `https://github.com/MY_USERNAME/Tritonhack2024-ML-Starter-Kit`
+2. Open a Terminal window and type `git clone`, then copy and paste your URL. Hit enter.
+3. Success! It should say, `Cloning into…` and `Unpacking into…`
+
+### Additional Information
+
+
 
 ## What is Conda? <a name="conda"></a>
 
