@@ -9,9 +9,17 @@
 
 ## Why Python? <a name="python"></a>
 
-## Why Git? <a name="git"></a>
+## What is Git/GitHub? <a name="git"></a>
 
-## Why Conda? <a name="conda"></a>
+*Git* is a version control system: it is essentially a tool that keeps track of file history. A **repository**, or a repo, is a place where files and their histories are stored.
+
+*Github* is a Git cloud service where you can access repositories.
+
+### Why use Git?
+
+Git helps developers collaborate on code. It keeps a record of all the changes made so we can go back in history if there is faulty code. Each person can work on the code in their own separate *branch*, then commit any changes they make.
+
+## What is Conda? <a name="conda"></a>
 
 Conda is a package management system that keeps packages (NumPy, pandas, etc.) compatible with your projects. It is incredibly useful for people working in data science and machine learning because it allows them to use different versions of the same package across different projects. 
 
