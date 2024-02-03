@@ -1,6 +1,6 @@
 # <center> Why use Python, Conda, Git? Installing Miniconda </center>
 
-# Table of Contents
+## Table of Contents
 1. Why Python?
 2. Why Conda?
 3. Why Git?
