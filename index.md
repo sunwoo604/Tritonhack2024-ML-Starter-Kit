@@ -44,6 +44,10 @@ Now that you have a fork of the repository, you can now save the code to your lo
 
 #### Files: .gitignore
 
+Sometimes we want to tell Git to ignore certain files in our project. For example, we may have temporary or log files that we don’t want to commit every time. In this case, our repository has a `.gitignore` file that will list what files to ignore. 
+
+For example, having `*.log` in `.gitignore` will tell Git to ignore any files ending in `.log`. Adding `temp/` will tell Git to ignore all files in the `temp` folder. 
+
 ## What is Conda? <a name="conda"></a>
 
 Conda is a package management system that keeps packages (NumPy, pandas, etc.) compatible with your projects. It is incredibly useful for people working in data science and machine learning because it allows them to use different versions of the same package across different projects. 
