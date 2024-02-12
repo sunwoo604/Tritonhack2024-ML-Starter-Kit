@@ -3,10 +3,14 @@
 ## Table of Contents
 1. [Getting Started with Git/GitHub](#git)
 2. [Conda](#conda)
-3. [Installing Miniconda for Windows](#windows)
-4. [Installing Miniconda for Mac](#mac)
-5. [What is a Notebook?](#notebook)
-6. [Getting Started with Notebooks](#start)
+    * [Installing Miniconda for Windows](#windows)
+    * [Installing Miniconda for Mac](#mac)
+3. [What is a Notebook?](#notebook)
+4. [Getting Started with Notebooks](#start)
+    * [Google Colaboratory (recommended)](#colab)
+    * [Jupyter Notebook](#jupyter)
+    * [VS Code](#vscode)
+    * [Interactive Notebook (VS Code)](#interactive)
 
 ## Getting Started with Git/Github <a name="git"></a>
 
@@ -26,11 +30,11 @@ To check whether you have Git installed, open a Terminal window and type `git --
 
 ### Forking a Repository
 
-Forking a repository copies the source code to a new repository, where you can make your own separate changes. To fork, go to the repository [website](https://github.com/tritonhacks/Tritonhack2024-ML-Starter-Kit) and click Fork on the top right. 
+Forking a repository copies the source code to a new repository, where you can make your own separate changes. To fork, go to the repository [website](https://github.com/tritonhacks/Tritonhack2024-ML-Starter-Kit) and click "Fork" on the top right. 
 
 ![Image](images/git_1.png)
 
-Then, click Create Fork.
+Then, click "Create Fork".
 
 ![Image](images/git_2.png)
 
@@ -38,7 +42,7 @@ Then, click Create Fork.
 
 Now that you have a fork of the repository, you can now save the code to your local computer by cloning it. 
 1. To clone a repository, first go to your forked repository and copy the URL address. It should look something like: `https://github.com/MY_USERNAME/Tritonhack2024-ML-Starter-Kit`
-2. Open a Terminal window and type `git clone`, then copy and paste your URL. Hit enter.
+2. Open a Terminal window and type `git clone `, then copy and paste your URL. Hit enter.
 3. Success! It should say, `Cloning into…` and `Unpacking into…`
 
 ### Additional Information
@@ -57,7 +61,7 @@ Conda is a package management system that keeps packages (NumPy, pandas, etc.) c
 
 The software you will download, Miniconda, will include Conda, Python, and some functional packages.
 
-## Installing Miniconda for Windows <a name="windows"></a>
+### Installing Miniconda for Windows <a name="windows"></a>
 
 First, go to this [link](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html). Once you’re there, click on “Miniconda Installer for Windows” as shown below:
 
@@ -71,13 +75,13 @@ Copy the text circled in red using Ctrl+C. Next, press the Windows key and searc
 
 ![Image](images/conda_3.png)
 
-Wait until a line pops up right below the last line that, after the name of your current working directory, reads: “del miniconda.exe”. Press Enter, then close the Command Prompt. Next, press the Windows key and search for “Anaconda Prompt”. Once you have found it, open it. It should look like this:
+Wait until a line pops up right below the last line that, after the name of your current working directory, reads: `del miniconda.exe`. Press Enter, then close the Command Prompt. Next, press the Windows key and search for “Anaconda Prompt”. Once you have found it, open it. It should look like this:
 
 ![Image](images/conda_4.png)
 
 If you’ve made it this far, congratulations! You have finished setting up Miniconda on your WIndows device. Although there doesn’t look like much going on here, you can type “help”, then press Enter to discover a list of commands for Conda. 
 
-## Installing Miniconda for Mac <a name="mac"></a>
+### Installing Miniconda for Mac <a name="mac"></a>
 
 1. First, go to the Miniconda website at this [link](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html). 
 2. Next, click on “**macOS graphical installer**”
@@ -104,7 +108,35 @@ Jupyter notebook is one of the most common forms of notebooks out there. The not
 
 ## Getting Started with Notebooks <a name="start"></a>
 
-### Jupyter Notebook (Recommended)
+There are many ways to getting started with Jupyter Notebooks. Using Google Colaboratory (Google Colab) is recommended due to its simplicity and time-efficiency, but feel free to choose whichever setup is most comfortable for you. 
+
+### Google Colaboratory (recommended) <a name="colab"></a>
+
+First, go to the Google Colab [site](https://colab.research.google.com/). Once you are there, click on the blue “Sign In’ button at the top right corner of the page.
+
+![Image](images/colab_1.png)
+
+Sign in with your Gmail address. Once signed in, you may get a pop-up that says “Open Notebook” as the title. If not, or if you may have accidentally misclicked somewhere outside the pop-up, fret not! Click on “File” by the top left corner, then click on “Open Notebook” from the dropdown:
+
+![Image](images/colab_2.png)
+
+You should get the pop-up as shown below. Once you’re there, click on “GitHub” from the list on the left:
+
+![Image](images/colab_3.png)
+
+You might get a pop-up window that asks you whether you want GitHub to have access to your Google account. Whether you’d like to allow access or not is up to you (it may be useful to allow access now if you plan on working on data science/machine learning projects through Google Colab in 
+the future). Next, copy and paste this link into the search bar where it asks to enter a GitHub URL: https://github.com/tritonhacks/Tritonhack2024-ML-Starter-Kit/tree/main
+
+![Image](images/colab_4.png)
+
+The screenshot above only displays the file for the starter notebook. This is because the screenshot was taken at the time the starter kit was being developed–there may currently be other files. By copying and pasting a valid GitHub URL for a repository, Google Colab will look for files 
+within the repository that are Jupyter Notebooks (files ending with the extension `.ipynb`). For now, open the starter notebook by clicking on the file circled in red. You should now see this:
+
+![Image](images/colab_5.png)
+
+Once you’re here, you’re ready to start making some edits to your Jupyter Notebook file!
+
+### Jupyter Notebook <a name="jupyter"></a>
 
 On your terminal, while the Conda environment is activated, use the command `jupyter notebook`: 
 
@@ -122,7 +154,7 @@ Now, you can select the cell that you want to learn, and then press the run butt
 
 ![Image](images/notebook_4.png)
 
-### VS Code
+### VS Code <a name="vscode"></a>
 
 First, open the file. You will be able to see the notebook’s environment at the top right corner. Click on that. 
 
@@ -144,7 +176,7 @@ Now you are all set! You can run each cell individually now by clicking the run 
 
 ![Image](images/notebook_9.png)
 
-### Interactive Notebook (VS Code):
+### Interactive Notebook (VS Code) <a name="interactive"></a>
 
 In some cases, you do not want to use Jupyter Notebook, but the Python file instead because you want to embed the code into your program. It can be very annoying to convert all these notebook codes to the actual file. In this case, you can use Python File directly. 
 
@@ -160,7 +192,7 @@ Then, click on Python Environments.
 
 ![Image](images/notebook_12.png)
 
-Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use(in this case, you would want to select `tritonhack2024ml`).
+Then, you should be able to see the list of environments, including the environment that you created earlier! Select the environment that you want to use (in this case, you would want to select `tritonhack2024ml`).
 
 ![Image](images/notebook_13.png)
 
