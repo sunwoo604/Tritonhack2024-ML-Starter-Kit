@@ -1,7 +1,5 @@
 # Tritonhack2024-ML-Starter-Kit
 
-## [Documentation](https://docs.google.com/document/d/1v9JBP2kbtgBCpn12CLNQKeS3FZ1pEzCImTnIfqv6EeM/edit?usp=sharing)
-
 In this machine learning project, we will build a regression model to predict crab ages based on given measurements for a species of crab.
 
 ## Data Sources
