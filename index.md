@@ -134,7 +134,7 @@ within the repository that are Jupyter Notebooks (files ending with the extensio
 
 ![Image](images/colab_5.png)
 
-Once you’re here, you’re ready to start making some edits to your Jupyter Notebook file!
+Once you’re here, you’re ready to start making some edits to your Jupyter Notebook file. It would also be handy to download `train_extended.csv` from the repository so that you can load the data that this notebook is working with. 
 
 ### Jupyter Notebook <a name="jupyter"></a>
 
