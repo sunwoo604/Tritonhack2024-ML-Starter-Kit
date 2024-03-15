@@ -1,4 +1,4 @@
-# <center> Git, (Mini)conda, Python Jupyter Notebook</center>
+# <center> 2024 TritonHack Machine Learning Starter Kit </center>
 
 ## Table of Contents
 1. [Getting Started with Git/GitHub](#git)
