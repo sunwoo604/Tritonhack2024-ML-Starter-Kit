@@ -1,6 +1,7 @@
 # <center> 2024 TritonHack Machine Learning Starter Kit </center>
 
 ## Table of Contents
+0. [Useful Resources/Documentations](#doc)
 1. [Getting Started with Git/GitHub](#git)
 2. [Conda](#conda)
     * [Installing Miniconda for Windows](#windows)
@@ -11,6 +12,15 @@
     * [Jupyter Notebook](#jupyter)
     * [VS Code](#vscode)
     * [Interactive Notebook (VS Code)](#interactive)
+
+## Useful Resources/Documentations <a name="doc"></a>
+
+### Here are some documentations and resources that we recommend you look into for you to have better understandings of different libraries or if you need any further help!
+
+[NumPy](https://numpy.org/doc/stable/user/index.html#user)
+[Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+[Matplotlib](https://matplotlib.org/stable/users/index)
+[Scikit - Learn](https://scikit-learn.org/stable/user_guide.html)
 
 ## Getting Started with Git/Github <a name="git"></a>
 
